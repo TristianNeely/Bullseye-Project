@@ -17,7 +17,7 @@ namespace Bullseye
 
 
             /* RandomPos()*/
-           
+
             MousePos();
         }
 
@@ -41,15 +41,14 @@ namespace Bullseye
                 /* Random rnd = new Random();
                  int xAxis = rnd.Next(0, 1920);
                  int yAxis = rnd.Next(0, 1080);
-
                  Console.WriteLine($"The Random xAxis Cordinate is: {xAxis} / The Random yAxis Cordinate is:  {yAxis}");
                 */
                 if (myCount <= 100)
                 {
-                    Thread.Sleep(1000);
+                    Thread.Sleep(4000);
                     ++myCount;
                     Console.WriteLine($"Number of seconds: {myCount}");
-                    
+
                 }
                 else
                 {
@@ -57,8 +56,24 @@ namespace Bullseye
                     MousePos();
                     Console.Clear();
                 }
-
                 
+
+                // Exact Pixel
+                if (userX == xAxis && userY == yAxis)
+                {
+                    Console.WriteLine("Your INSANE!");
+                    Thread.Sleep(90000000);
+                    
+                }
+
+                if (userX >= xAxis && userY >= yAxis)
+                {
+                    Console.WriteLine("Your asjdASflksa!");
+                    Thread.Sleep(90000000);
+
+                }
+
+
 
             }
 
