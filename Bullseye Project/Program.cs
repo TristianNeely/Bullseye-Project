@@ -58,6 +58,11 @@ namespace Bullseye
                     MousePos();
                     Console.Clear();
                 }
+                 if (userX == xAxis && userY == yAxis)
+                {
+                    Console.WriteLine("Got It!!");
+                    return;
+                }
 
                 // Frozen
                 int BananaX =  xAxis - 1000;
