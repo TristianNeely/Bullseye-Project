@@ -109,6 +109,7 @@ namespace Bullseye
                 if (BananaX <= userX && BananaY <= userY)
                 {
                     Console.WriteLine("Your Frozen!");
+                    Console.WriteLine("--------------------");
                     //Thread.Sleep(5000);
 
 
@@ -118,19 +119,21 @@ namespace Bullseye
                 if (OrangeX <= userX && OrangeY <= userY)
                 {
                     Console.WriteLine("Your Ice Cold!");
-
+                    Console.WriteLine("--------------------");
                 }
 
                 //
                 if (KiwiX <= userX && KiwiY <= userY)
                 {
                     Console.WriteLine("Your Cold!");
+                    Console.WriteLine("--------------------");
                 }
 
                 //
                 if (AppleX <= userX && AppleY <= userY)
                 {
                     Console.WriteLine("Your Warm!");
+                    Console.WriteLine("--------------------");
                 }
 
 
@@ -138,11 +141,13 @@ namespace Bullseye
                 if (StrawberryX <= userX && StrawberryY <= userY)
                 {
                     Console.WriteLine("Your  Hot!");
+                    Console.WriteLine("--------------------");
                 }
 
                 if (WatermelonX <= userX && WatermelonY <= userY)
                 {
                     Console.WriteLine("Your On Fire");
+                    Console.WriteLine("--------------------");
                 }
 
                 if (CantalopeX <= userX && CantalopeY <= userY)
@@ -151,7 +156,9 @@ namespace Bullseye
 
                     Console.WriteLine("You Win!");
                     Console.WriteLine(myCount);
+                    Console.WriteLine("--------------------");
                     Thread.Sleep(10000000);
+
                 }
 
 
