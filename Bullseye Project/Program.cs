@@ -49,7 +49,7 @@ namespace Bullseye
                 {
                     Thread.Sleep(1000);
                     ++myCount;
-                    Console.WriteLine($"Number of seconds: {myCount}");
+                    Console.WriteLine($"Your time was: {myCount}");
 
                 }
                 else
@@ -110,7 +110,7 @@ namespace Bullseye
                 {
                     Console.WriteLine("Your Frozen!");
                     Console.WriteLine("--------------------");
-                    //Thread.Sleep(5000);
+                   
 
 
                 }
@@ -120,6 +120,8 @@ namespace Bullseye
                 {
                     Console.WriteLine("Your Ice Cold!");
                     Console.WriteLine("--------------------");
+                    
+                 
                 }
 
                 //
@@ -127,6 +129,7 @@ namespace Bullseye
                 {
                     Console.WriteLine("Your Cold!");
                     Console.WriteLine("--------------------");
+                   
                 }
 
                 //
